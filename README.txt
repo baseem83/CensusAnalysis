@@ -16,3 +16,4 @@ There are two primary applications in this project:
 
     2. The CensusAnalyzer application presumes that the data layout of its input file is fixed and will not change. The input file provides no logical delimeter, so we used the layout as provided in the detail file.
 
+    3. StateCensus exists to create a Class template for a single state record. In the file defining StateCensus, there is a main method that, when called, runs a series of unit tests. This is useful in making sure that the class still works as changes are made. These tests saved me time and headaches numerous times throughout this project.
