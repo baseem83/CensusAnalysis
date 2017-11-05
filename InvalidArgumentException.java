@@ -44,7 +44,7 @@ public class InvalidArgumentException extends Exception
         * with the appropriate population values.
         *
         * @author Baseem Astiphan
-        @ @return The overridden toString method
+        * @return The overridden toString method
     */
     public String toString()
     {
